@@ -1,6 +1,6 @@
 const express = require("express");
 const EmployeeModel = require("../Models/EmployeeModel");
-const { data } = require("react-router-dom");
+//const { data } = require("react-router-dom");
 
 const createEmployee= async(req,res)=>{
 try {
